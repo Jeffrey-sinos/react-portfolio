@@ -5,7 +5,6 @@ import laptop from '../../assets/laptop.jpg';
 const Hero = () => {
     return(
         <section id="home" class="main-page"> 
-        <img src= {laptop} alt="background image of laptop"></img>
         <div className="intro">
             <div className="headings">
             <h1 className="first-heading">Hello, I'm</h1>

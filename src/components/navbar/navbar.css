@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
-
 .navbar { 
 	display: flex; 
 	align-items: center; 
@@ -8,7 +7,8 @@
 	top: 0; 
 	width: 100%; 
 	background-color: #3c3939; 
-}  
+} 
+
 .logo { 
 	padding: 0 5rem; 
 } 
@@ -16,10 +16,37 @@
 .logo .logo-heading { 
 	color: #fff; 
 } 
-@media screen and (min-width: 856px) and (max-width: 1024px) { 
-	.menu-list .menu-list-items { 
-		padding: 0.5rem 0.3rem; 
-	} 
+.links:hover { 
+	border-bottom: 2px solid #fff; 
+} 
+
+.links { 
+	border-bottom: 2px solid transparent; 
+	transition: all 0.25s; 
+	padding: 5px; 
+	text-decoration: none; 
+	color: #fff; 
+} 
+.btn { 
+	padding: 10px 20px; 
+	border-radius: 5px; 
+	cursor: pointer; 
+	letter-spacing: 1px; 
+	border: none; 
+} 
+
+.common-btn { 
+	background-color: #3c3939; ; 
+	color: #fff; 
+	border: 2px solid #3c3939; ; 
+	transition: all 0.25s; 
+} 
+
+.common-btn:hover { 
+	background-color: #fff; 
+	color: #3c3939; ; 
+	border: 2px solid #3c3939; ; 
+	outline: none; 
 } 
 
 .menu { 
