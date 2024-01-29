@@ -4,6 +4,7 @@ import Project from './components/projects/projects.js';
 import About from './components/about/about.js';
 import Contact from './components/contact/contacts.js';
 import Footer from './components/footer/footer.js';
+import Api from './components/api/api.js';
 import './style.css'
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Contact/>
       <Footer/>
+      <Api/>
     </div>
   );
 }
