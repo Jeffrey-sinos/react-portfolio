@@ -4,7 +4,7 @@ import './hero.css';
 
 const Hero = () => {
     return(
-        <section id="home" class="main-page"> 
+        <section id="home" className="main-page"> 
         <div className="intro">
             <div className="headings">
             <h1 className="first-heading">Hello, I'm</h1>
