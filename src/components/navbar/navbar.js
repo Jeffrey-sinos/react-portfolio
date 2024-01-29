@@ -3,7 +3,6 @@ import './navbar.css'
 
 const Navbar = () => {
     return(
-    <body>
     <header className="header">
         <nav className="navbar">
         <div className="logo">
@@ -39,7 +38,6 @@ const Navbar = () => {
     </div>
   </nav>
 </header>
-</body>
     );
 }
 export default Navbar;
