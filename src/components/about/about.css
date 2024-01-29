@@ -1,0 +1,57 @@
+.about { 
+	display: flex; 
+	align-items: center; 
+	background-color:#3c3939; 
+	justify-content: space-between; 
+	width: 100%; 
+} 
+
+.about .about-text { 
+	width: 450px; 
+	color: white; 
+	padding: 5rem 1rem 5rem 5rem; 
+} 
+
+.about .about-image img { 
+	height: 300px; 
+	width: 300px; 
+	padding: 5rem 5rem 5rem 1rem; 
+	border-radius: 10%;
+	transition: transform 0.3s ease-in-out;
+} 
+.about .about-image img:hover{
+    transform: scale(1.1);
+}
+.skill-bars {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.skill-bar {
+    margin-bottom: 10px;
+}
+
+.skill-bar p {
+    margin-bottom: 5px;
+    color: #fff; /* Set text color to white */
+}
+
+.bar {
+    height: 20px;
+    background-color: #716464; ; /* Change the color as desired */
+    position: relative;
+}
+
+.percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Set text color to white */
+}
+.skill-bar:nth-child(1) .bar { width: 75%; } /* HTML */
+.skill-bar:nth-child(2) .bar { width: 60%; } /* CSS */
+.skill-bar:nth-child(3) .bar { width: 50%; } /* JavaScript */
+.skill-bar:nth-child(4) .bar { width: 55%; } /* Python */
+.skill-bar:nth-child(5) .bar { width: 50%; } /* PHP */
