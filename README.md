@@ -1,3 +1,5 @@
+This is a web portfolio created using React. The live site can be found here https://jeffrey-sinos.github.io/react-portfolio/
+
 #Questions
 
 1. What is NPM?
